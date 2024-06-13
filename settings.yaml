@@ -3482,6 +3482,10 @@ spec:
                   label: 结束时间
                   placeholder: 请输入结束时间(小时)
                   help: 可以与开始时间相同，表示一个小时内的问候
+            - $formkit: attachment
+              name: copyrightImg
+              label: 版权声明头像
+
     - group: lovely_girls
       label: 我的老婆
       formSchema:
